@@ -56,6 +56,7 @@ button:active{
 .subtitle{
     text-align: center;
     padding-top: 40px;
+    font-size: 1.1em;
 }
 .dark-purple{
     background-color: #0F010E;
@@ -210,8 +211,8 @@ button:active{
 .contact-container{
     padding: 40px;
     display: flex;
-    justify-content: center;
-    gap:400px;
+    justify-content: space-around;
+    gap: 40px;
 }
 .conctact{
     display: flex;
@@ -234,4 +235,29 @@ button:active{
 }
 .conctact > p{
     font-weight: 500;
+}
+@media screen and (max-width: 768px){
+    .img-person-motivos{
+        display: none;
+    }
+    .two-columns{
+        flex-direction: column;
+    }
+    .history-text-container-full>p{
+        line-height: 20px;
+        font-size: 0.9em;
+    }
+    .modules-card-container{
+        width: 400px;
+    }
+    .video{
+        width: 80vw;
+    }
+    .history-text-container-full{
+        padding: 60px 90px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+     }
 }

@@ -70,6 +70,7 @@ button:active{
     align-items: center;
     margin-top: 30px;
     gap: 20px;
+    padding: 0 20px;
 }
 .title-motivos{
     text-align: center;
@@ -240,6 +241,18 @@ button:active{
     .img-person-motivos{
         display: none;
     }
+    .subtitle{
+        padding: 0 10px;
+        margin-top:15px;
+    }
+    .button-sell{
+        width: 80%;
+    }
+    .img-person{
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
     .two-columns{
         flex-direction: column;
     }
@@ -254,10 +267,74 @@ button:active{
         width: 80vw;
     }
     .history-text-container-full{
-        padding: 60px 90px;
+        padding: 60px 30px;
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 40px;
      }
+     .bt-offer{
+         width: 80%;
+     }
+     .history-text-container{
+        padding: 0 30px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .history-text-container>p{
+        font-size: 1em;
+    }
+    .history-subtitle{
+        text-align: justify;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .history-subtitle::after{
+        content: "";
+        position: absolute;
+        width: 70.26px;
+        height: 0px;
+        bottom: -45px;
+        left: 0;
+        background-color:#FFFFFF ;
+        border: 3px solid #FFFFFF;
+    }
+    .conctact{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .conctact>h3{
+        font-size: 1em;
+        position: relative;
+    }
+    .conctact > h3::after{
+        content: "";
+        position: absolute;
+        width: 44px;
+        height: 0px;
+        bottom: -10px;
+        left: 0;
+        background-color:#C020C6 ;
+        border: 1px solid #C020C6;
+    }
+    .conctact > p{
+        font-weight: 500;
+        font-size: 11px;
+    }
+    .module-card{
+        width: 350px;
+    }
+    .content-module-card{
+        gap:10px
+    }
+    .containter-motivos{
+        padding: 0 20px;
+        margin-bottom: 90px;
+    }
+    .item-motivos> img{
+        width: 40px;
+    }
 }

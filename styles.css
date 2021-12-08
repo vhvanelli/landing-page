@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+button{
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.8;
+}
+.page{
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg{
+    background: url("./assets/bg.svg");
+    background-size: cover;
+}
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: max(1.7em,2.2vw);
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.video{
+    display: block;
+    width: 50vw;
+    margin: 0 auto;
+}
+.text-home{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.button-sell{
+    width: 385px;
+    height: 75px;
+    background-color: #F1CA27;
+    border: none;
+    color:#000;
+    font-weight: bolder;
+    font-size: 1.1em;
+    display: block;
+    margin: 30px auto;
+}
+.subtitle{
+    text-align: center;
+    padding-top: 40px;
+}
+.dark-purple{
+    background-color: #0F010E;
+}
+.purple{
+    background-color: #190117;
+}
+.containter-motivos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.title-motivos{
+    text-align: center;
+    font-weight: 500;
+}
+.item-motivos{
+    display: flex;
+    gap: 20px;
+}
+.two-columns{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+    gap: 20px;
+}
+.img-person-motivos{
+    width: 470px;
+    margin-top: 30px;
+}
+.cards-container{
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 110px;
+}
+.card{
+    background-color: #250123;
+    width: 245px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 18px;
+    gap: 30px;
+}
+.logo-card{
+    width: 70px;
+}
+.text-card{
+    text-align: center;
+    font-size: 1.2em;
+}
+.bt-card{
+    width: 90%;
+    height: 41px;
+    background-color: #F1CA27;
+    color: #000;
+    font-weight: bolder;
+    font-size: 1.1em;
+    border:none;
+    border-radius: 10px;
+}
+.img-person{
+    width: 470px;
+}
+.history-text-container{
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.history-text-container>p{
+    font-size: 1.1em;
+}
+.history-subtitle{
+    text-align: justify;
+    position: relative;
+    margin-bottom: 50px;
+}
+.history-subtitle::after{
+    content: "";
+    position: absolute;
+    width: 70.26px;
+    height: 0px;
+    bottom: -45px;
+    left: 0;
+    background-color:#FFFFFF ;
+    border: 3px solid #FFFFFF;
+}
+.history-text-container-full{
+   padding: 60px 150px;
+   width: 1395px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+.history-text-container-full>p{
+    line-height: 20px;
+    font-size: 1.1em;
+}
+.img-card{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border:2px solid transparent;
+}
+.modules-card-container{
+    margin-top: 50px;
+    width: 880px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.module-card{
+    background-color: #250123;
+    width: 400px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 19px;
+    gap: 33px;
+}
+.title-module-card{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.content-module-card{
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.bt-offer{
+    width: 450px;
+    height: 80px;
+    background-color: #F1CA27;
+    border: none;
+    color:#000;
+    font-weight: bolder;
+    font-size: 1.1em;
+    display: block;
+    margin: 30px auto 80px auto;
+}
+.contact-container{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap:400px;
+}
+.conctact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.conctact>h3{
+    font-size: 1.9em;
+    position: relative;
+}
+.conctact > h3::after{
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 0px;
+    bottom: -10px;
+    left: 0;
+    background-color:#C020C6 ;
+    border: 2px solid #C020C6;
+}
+.conctact > p{
+    font-weight: 500;
+}
